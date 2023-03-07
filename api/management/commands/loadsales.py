@@ -15,6 +15,7 @@ class Command(BaseCommand):
             reader = csv.reader(f)
             for row in reader:
                 counter += 1
+                print(row[6])
                 sale, is_created = Sale.objects.get_or_create(
                     sale_id=int(row[1]),
                     date=datetime.strptime(row[2], '%d-%m-%y %H:%M'),
