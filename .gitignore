@@ -1,0 +1,6 @@
+.gitignore
+templates
+venv
+Dockerfile
+.idea
+api.migrations
