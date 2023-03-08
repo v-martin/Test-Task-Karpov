@@ -15,4 +15,4 @@ done
 
 python manage.py collectstatic --noinput
 
-gunicorn TestTask.wsgi --bind 0.0.0.0:8000
+gunicorn ../TestTask.wsgi --bind 0.0.0.0:8000
