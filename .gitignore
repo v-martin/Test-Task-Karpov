@@ -1,6 +1,6 @@
 .gitignore
 templates
 venv
-Dockerfile
+docker/TestTask/Dockerfile
 .idea
 api.migrations
