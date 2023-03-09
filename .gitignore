@@ -4,3 +4,4 @@ venv
 docker/TestTask/Dockerfile
 .idea
 api.migrations
+__pycache__
