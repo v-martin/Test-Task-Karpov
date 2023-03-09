@@ -22,7 +22,8 @@
 1) Нужно установить python, redis, celery, postgres и postgres-client-common 
 2) Склонировать проект: git clone
 3) Скачать необходимые модули: pip install -r requirements.txt
-4) В bash заресторить базу данных.
+4) В bash заресторить базу данных (если не сработало, просто создать базу данных с названием test_task и в файле .env
+   указать логин и пароль своего юзера и в юрле бд (или просто заменить бд на sqlite))
 5) В bash запустить брокер redis: redis-server
 6) В новом терминале bash запустить воркер celery: celery -A TestTask worker -loglevel=info
 7) Запустить сервер django: python manage.py runserver
